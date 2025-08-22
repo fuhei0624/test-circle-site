@@ -5,7 +5,7 @@ import Stats from './Stats';
 const Hero: React.FC = () => {
   return (
     <section className="relative h-screen min-h-[700px] flex items-center justify-center text-white">
-      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://picsum.photos/seed/coffeebeans/1920/1080')" }}></div>
+      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1511920183353-3c9c9b5de2a8?q=80&w=1974&auto=format&fit=crop')" }}></div>
       <div className="absolute inset-0 bg-black/50"></div>
       <div className="relative z-10 container mx-auto px-6 text-center flex flex-col items-center mt-20">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.5)' }}>
